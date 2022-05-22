@@ -1,0 +1,74 @@
+body {
+    background-color: mediumslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+   background-color: blueviolet;
+   height: 300px;
+   width: 300px;
+   border-radius: 30px;
+   padding: 50px;
+   box-shadow: 0 4px 8px 0 #dafeb7, 0 6px 20px 0 #dafeb7;
+   margin: auto auto;
+    
+}
+.dice {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    
+}
+.active-dice {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 5px 7px 5px #000;
+}
+
+.win-dice {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 5px 7px 5px yellowgreen;
+}
+
+
+.flex {
+    display: flex;
+    justify-content:space-between ;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #dafeb7;
+    padding:12px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: 800;
+}
+button:hover {
+    background-color: bisque;
+}
+.message {
+text-align: center;
+}
+
+.center {
+    margin: 50px auto;
+}
